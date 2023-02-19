@@ -1,6 +1,6 @@
 #include "opencv2/opencv.hpp"
 
-int main()
+void test_cv_mat()
 {
 	int a[2]{256, 256};
 	int b[3]{ 256, 256, 256};
@@ -24,9 +24,4 @@ int main()
 	
 	cv::Mat imgf = cv::Mat::ones(256, 256, CV_32FC3) * 15.5;
 	std::cout << "32FC3" << imgf.at<float>(0) << std::endl;
-
-	
-
-
-	return 0;
 }

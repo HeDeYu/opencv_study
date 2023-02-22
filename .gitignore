@@ -1,7 +1,3 @@
 /.vs
 /x64
 *.props
-*.sln
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
